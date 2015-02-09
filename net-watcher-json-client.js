@@ -11,5 +11,9 @@ client.on('data', function(data) {
     let date = new Date(message.timestamp);
     console.log("File '" + message.file + "' changed at " + date); } 
   else {
-    throw Error("Unrecognized message type: " + message.type); }
-});
+    throw Error("Unrecognized message type: " + message.type);
+  }
+
+
+
+
