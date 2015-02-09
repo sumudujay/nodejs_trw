@@ -13,6 +13,7 @@ client.on('data', function(data) {
   else {
     throw Error("Unrecognized message type: " + message.type);
   }
+});
 
 
 
