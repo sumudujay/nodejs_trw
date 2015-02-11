@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'nodeunit' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ 'nodeunit', null ]
+5 verbose cache add name=undefined spec="nodeunit" args=["nodeunit",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'nodeunit',
+6 verbose parsed url   path: 'nodeunit',
+6 verbose parsed url   href: 'nodeunit' }
+7 silly lockFile 10f0edac-nodeunit nodeunit
+8 verbose lock nodeunit /Users/sumudu/.npm/10f0edac-nodeunit.lock
+9 silly lockFile 10f0edac-nodeunit nodeunit
+10 silly lockFile 10f0edac-nodeunit nodeunit
+11 verbose addNamed [ 'nodeunit', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a2ad5191-nodeunit nodeunit@
+14 verbose lock nodeunit@ /Users/sumudu/.npm/a2ad5191-nodeunit.lock
+15 silly addNameRange { name: 'nodeunit', range: '*', hasData: false }
+16 verbose request where is /nodeunit
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 1104b339575aebf2
+19 verbose url raw /nodeunit
+20 verbose url resolving [ 'https://registry.npmjs.org/', './nodeunit' ]
+21 verbose url resolved https://registry.npmjs.org/nodeunit
+22 verbose request where is https://registry.npmjs.org/nodeunit
+23 info trying registry request attempt 1 at 10:39:12
+24 http GET https://registry.npmjs.org/nodeunit
+25 http 200 https://registry.npmjs.org/nodeunit
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Tue, 10 Feb 2015 23:39:14 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"ESEOEN3WA0FTJE1UV75IVSRIP"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '73728',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '1',
+26 silly registry.get     'x-timer': 'S1423611553.925823,VS0,VE233',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'nodeunit', range: '*', hasData: true }
+28 silly addNameRange versions [ 'nodeunit',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.2.4',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.5.2',
+28 silly addNameRange     '0.5.3',
+28 silly addNameRange     '0.5.4',
+28 silly addNameRange     '0.5.5',
+28 silly addNameRange     '0.6.0',
+28 silly addNameRange     '0.6.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '0.6.4',
+28 silly addNameRange     '0.7.0',
+28 silly addNameRange     '0.7.1',
+28 silly addNameRange     '0.7.2',
+28 silly addNameRange     '0.7.3',
+28 silly addNameRange     '0.7.4',
+28 silly addNameRange     '0.8.0',
+28 silly addNameRange     '0.8.1',
+28 silly addNameRange     '0.8.2',
+28 silly addNameRange     '0.8.3',
+28 silly addNameRange     '0.8.4',
+28 silly addNameRange     '0.8.5',
+28 silly addNameRange     '0.8.6',
+28 silly addNameRange     '0.8.8',
+28 silly addNameRange     '0.8.7',
+28 silly addNameRange     '0.9.0' ] ]
+29 verbose addNamed [ 'nodeunit', '0.9.0' ]
+30 verbose addNamed [ '0.9.0', '0.9.0' ]
+31 silly lockFile 6d5a5164-nodeunit-0-9-0 nodeunit@0.9.0
+32 verbose lock nodeunit@0.9.0 /Users/sumudu/.npm/6d5a5164-nodeunit-0-9-0.lock
+33 silly lockFile 63b9232b--org-nodeunit-nodeunit-0-9-0-tgz https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+34 verbose lock https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz /Users/sumudu/.npm/63b9232b--org-nodeunit-nodeunit-0-9-0-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz',
+35 verbose addRemoteTarball   '0dfab188176c59de5373590f4197686941378351' ]
+36 info retry fetch attempt 1 at 10:39:13
+37 verbose fetch to= /var/folders/x0/s3n7cvbx11b3sxj8j3rzdc340000gn/T/npm-3140-sYBEzlrX/registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+38 http GET https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+39 http 200 https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+40 silly lockFile 63b9232b--org-nodeunit-nodeunit-0-9-0-tgz https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+41 silly lockFile 63b9232b--org-nodeunit-nodeunit-0-9-0-tgz https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz
+42 silly lockFile 6d5a5164-nodeunit-0-9-0 nodeunit@0.9.0
+43 silly lockFile 6d5a5164-nodeunit-0-9-0 nodeunit@0.9.0
+44 silly lockFile a2ad5191-nodeunit nodeunit@
+45 silly lockFile a2ad5191-nodeunit nodeunit@
+46 silly resolved [ { name: 'nodeunit',
+46 silly resolved     version: '0.9.0',
+46 silly resolved     description: 'Easy unit testing for node.js and the browser.',
+46 silly resolved     maintainers: [ [Object], [Object] ],
+46 silly resolved     contributors:
+46 silly resolved      [ [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object],
+46 silly resolved        [Object] ],
+46 silly resolved     repository: { type: 'git', url: 'http://github.com/caolan/nodeunit.git' },
+46 silly resolved     devDependencies: { 'uglify-js': '>=1.1.0', should: '>=0.4.2' },
+46 silly resolved     bugs: { url: 'http://github.com/caolan/nodeunit/issues' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     directories: { lib: './lib', doc: './doc', man: './man1' },
+46 silly resolved     bin: { nodeunit: './bin/nodeunit' },
+46 silly resolved     dependencies: { tap: '>=0.2.3' },
+46 silly resolved     scripts: { test: 'node ./bin/nodeunit' },
+46 silly resolved     man: [ '/home/caolan/.npm/nodeunit/0.9.0/package/man1/nodeunit.1' ],
+46 silly resolved     homepage: 'https://github.com/caolan/nodeunit',
+46 silly resolved     _id: 'nodeunit@0.9.0',
+46 silly resolved     _shasum: '0dfab188176c59de5373590f4197686941378351',
+46 silly resolved     _from: 'nodeunit@',
+46 silly resolved     _npmVersion: '1.4.9',
+46 silly resolved     _npmUser: { name: 'caolan', email: 'caolan.mcmahon@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '0dfab188176c59de5373590f4197686941378351',
+46 silly resolved        tarball: 'http://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz' },
+46 silly resolved     _resolved: 'https://registry.npmjs.org/nodeunit/-/nodeunit-0.9.0.tgz' } ]
+47 info install nodeunit@0.9.0 into /usr/local/lib
+48 info installOne nodeunit@0.9.0
+49 verbose lib/node_modules/nodeunit unbuild
+50 verbose tar unpack /Users/sumudu/.npm/nodeunit/0.9.0/package.tgz
+51 silly lockFile f6768941--local-lib-node-modules-nodeunit tar:///usr/local/lib/node_modules/nodeunit
+52 verbose lock tar:///usr/local/lib/node_modules/nodeunit /Users/sumudu/.npm/f6768941--local-lib-node-modules-nodeunit.lock
+53 silly lockFile bba33d2f-u-npm-nodeunit-0-9-0-package-tgz tar:///Users/sumudu/.npm/nodeunit/0.9.0/package.tgz
+54 verbose lock tar:///Users/sumudu/.npm/nodeunit/0.9.0/package.tgz /Users/sumudu/.npm/bba33d2f-u-npm-nodeunit-0-9-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeunit'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeunit']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/nodeunit',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/nodeunit',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:108:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.1.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "nodeunit"
+60 error cwd /Users/sumudu/Development/node/nodejs_trw/databases
+61 error node -v v0.10.36
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/nodeunit
+64 error fstream_path /usr/local/lib/node_modules/nodeunit
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodeunit'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:108:15)
+71 verbose exit [ 3, true ]
